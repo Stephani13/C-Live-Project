@@ -10,3 +10,4 @@ Here are some description of the stories I worked on, along with code snippets:
 ## Entity Model
 
 
+This model creates a table to store information about the cast members. My goal was to create the table and add it to an existing database to display in the screen for the user to view. First I created the properties and then using CRUD funtionality used the create page to gather the information from user and then render it on the index page from the cast member side. The information could be also edited using the edit page or deleted.
