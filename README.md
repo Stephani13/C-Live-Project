@@ -51,7 +51,7 @@ Convertion to bytes and storage on database:
 ![Screenshot (11)](https://user-images.githubusercontent.com/94413603/165443691-3418b9ff-d501-4e4b-817b-798eb2d39da8.png)
 ![Screenshot (12)](https://user-images.githubusercontent.com/94413603/165443785-9dd303fb-5313-428f-bf2f-74b24b73513c.png)
 
-Create a field oncreate page:
+Create a field on create page:
 ![Screenshot (13)](https://user-images.githubusercontent.com/94413603/165443792-592a11b9-4bc9-4197-8a69-600d20551120.png)
 
 Convert back to the image to display on index page:
