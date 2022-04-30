@@ -3,14 +3,14 @@
 
 ## Introduction
 
-In the last two weeks of my time in the tech academy, I worked with a team in developing a full scale Web Application in C#. Working on such large project was a big learning oportunity for me by fixing bugs and adding the requested features. I worked on some front end stories that allowed me to use my creative ideas to reach to the desired outcome. 
+In the last two weeks of my time in the tech academy, I worked with a team in developing a full scale Web Application in C#, using ASP.Net MVC. Working on such large project was a big learning oportunity for me by fixing bugs and adding the requested features. I worked on some front end stories that allowed me to use my creative ideas to reach to the desired outcome. 
 
 Here are some description of the stories I worked on, along with code snippets:
 
 ## Entity Model
 
 
-This model creates a table to store information about the cast members. My goal was to create the table and add it to an existing database to display in the screen for the user to view. First I created the properties and then using CRUD funtionality used the create page to gather the information from user and then render it on the index page from the cast member side. The information could be also edited using the edit page or deleted.
+This model creates a table to store information about the cast members. My goal was to create the table and add it to an existing database to display in the screen for the user to view. First I created the properties and then using Entity Framework to scaffold CRUD pages, I added CRUD funtionality used the create page to gather the information from user and then render it on the index page from the cast member side. The information could be also edited using the edit page or deleted.
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/94413603/165442970-923d7a9b-4951-4290-bb9e-9d34079f1850.png)
 
@@ -44,7 +44,7 @@ Another of the task given was to fix the buttons for log in and register to make
 
 ## Photo Storage and Retrieval
 
-Lastly, I was to allow the user to upload a picture and store it on the database. To be able to do this I had to convert the picture to bytes to be able to store it. And then be able to retrieve it for user to view, by doing the opposite conversion.
+Lastly, I was to allow the user to upload a picture and store it on the database. To be able to do this I had to convert the the HttpPostedFilesBase to byte[] to be able to store it. And then be able to retrieve it for user to view, by doing the opposite conversion.
 
 
 Convertion to bytes and storage on database:
